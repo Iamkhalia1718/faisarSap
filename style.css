@@ -1,0 +1,39 @@
+body {
+
+    margin: 40px;
+    padding: 0;
+    background-image: url('sss.jpg'); /* Replace 'background.gif' with the path to your background GIF */
+    background-size: cover;
+    background-position: center;
+  }
+
+.lyrics-container ul {
+  list-style: none;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+}
+
+.lyrics-container ul li {
+  margin-bottom: 10px;
+  color: #ffffff; /* Adjust the color as needed */
+  font-style: italic ;
+  font-weight: bold;
+}
+
+.lyrics-container ul li:last-child {
+  margin-bottom: 30; /* Remove margin from last item */
+}
+
+.lyrics-container ul li i {
+  font-style: italic; /* Make lyrics italic */
+}
+
+.lyrics-container ul {
+  list-style: none;
+  padding: 0;
+  font-family: italic, sans-serif;
+  font-size: 12px;
+  line-height: 1.6;
+}
